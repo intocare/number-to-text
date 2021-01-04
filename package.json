@@ -1,0 +1,47 @@
+{
+	"name": "@intocare/number-to-text",
+	"version": "0.0.0",
+	"description": "Extra number-to-text implementations",
+	"license": "MIT",
+	"repository": "intocare/number-to-text",
+	"author": {
+		"name": "Sam Verschueren",
+		"email": "sam.verschueren@corilus.be",
+		"url": "github.com/intocare"
+	},
+	"main": "index.js",
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"be-nl.js",
+		"be-fr.js"
+	],
+	"keywords": [
+		"number-to-text",
+		"translations",
+		"i18n",
+		"dutch",
+		"french",
+		"be-nl",
+		"be-fr"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"dependencies": {
+		"number-to-text": "^0.3.8"
+	},
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"xo": "^0.37.1"
+	},
+	"xo": {
+		"rules": {
+			"import/no-unassigned-import": "off",
+			"unicorn/prefer-string-slice": "off",
+			"no-lonely-if": "off"
+		}
+	}
+}
