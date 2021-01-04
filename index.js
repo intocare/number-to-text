@@ -1,3 +1,3 @@
 'use strict';
-require('./be-nl');
-require('./be-fr');
+require('./nl-be');
+require('./fr-be');

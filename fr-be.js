@@ -27,10 +27,10 @@ const tens = ['', '', 'Vingt', 'Trente', 'Quarante', 'Cinquante', 'Soixante', 'S
 const thousands = ['', ' Mille ', ' Million ', ' Milliard ', ' Billion '];
 const thousandsPlural = ['', ' Mille ', ' Millions ', ' Milliards ', ' Billions '];
 
-class BeFrCustomConverter extends Converter {
+class FrBeCustomConverter extends Converter {
 	constructor() {
 		super();
-		addConverter('be-fr', this);
+		addConverter('fr-be', this);
 	}
 
 	convertToText(number) {
@@ -122,4 +122,4 @@ class BeFrCustomConverter extends Converter {
 	}
 }
 
-module.exports = new BeFrCustomConverter();
+module.exports = new FrBeCustomConverter();

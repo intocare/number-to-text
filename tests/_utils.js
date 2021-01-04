@@ -5,7 +5,7 @@ require('..');
 module.exports = language => {
 	function macro(t, input, expected) {
 		t.is(
-			numberToText.convertToText(input, {language: `be-${language}`}),
+			numberToText.convertToText(input, {language: `${language}-be`}),
 			expected
 		);
 	}

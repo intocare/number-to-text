@@ -44,10 +44,10 @@ const thousands = [
 	' Biljard '
 ];
 
-class BeNlCustomConverter extends Converter {
+class NlBeCustomConverter extends Converter {
 	constructor() {
 		super();
-		addConverter('be-nl', this);
+		addConverter('nl-be', this);
 	}
 
 	convertToText(number) {
@@ -125,4 +125,4 @@ class BeNlCustomConverter extends Converter {
 	}
 }
 
-module.exports = new BeNlCustomConverter();
+module.exports = new NlBeCustomConverter();

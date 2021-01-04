@@ -15,8 +15,8 @@
 	},
 	"files": [
 		"index.js",
-		"be-nl.js",
-		"be-fr.js"
+		"nl-be.js",
+		"fr-be.js"
 	],
 	"keywords": [
 		"number-to-text",
